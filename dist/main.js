@@ -91,13 +91,17 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('content');
   const contact = Object(_contact__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  const menu = Object(_menu__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
   container.appendChild(contact.html());
+  container.appendChild(menu.content());
 });
 
 
@@ -163,6 +167,71 @@ const Contact = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const Menu = () => {
+  const title = () => {
+    const titleNode = document.createElement('h1');
+
+    titleNode.textContent = 'Our Menu';
+
+    return titleNode;
+  };
+
+  const menuCard = (imgCard, tCard, contCard) => {
+    const menuNode = document.createElement('div');
+    const imgNode = document.createElement('img');
+    const titleNode = document.createElement('div');
+    const contentNode = document.createElement('p');
+
+    // build image
+    imgNode.setAttribute('src', imgCard);
+    // build title
+    titleNode.textContent = tCard;
+    // build content
+    contentNode.textContent = contCard;
+
+    menuNode.appendChild(imgNode);
+    menuNode.appendChild(titleNode);
+    menuNode.appendChild(contentNode);
+
+    return menuNode;
+  };
+
+  const container = () => {
+    const containerNode = document.createElement('div');
+    const menuNode1 = menuCard('../img/fish.jpg', 'Mojarra', 'Mojarra Content');
+    const menuNode2 = menuCard('../img/coconut_rice.jpg', 'Arroz de Coco', 'Arroz de Coco Content');
+
+    containerNode.classList.add('menu-container');
+    containerNode.appendChild(menuNode1);
+    containerNode.appendChild(menuNode2);
+
+    return containerNode;
+  };
+
+  const content = () => {
+    const contentNode = document.createElement('div');
+    const titleNode = title();
+    const containerNode = container();
+
+    contentNode.classList.add('menu');
+    contentNode.appendChild(titleNode);
+    contentNode.appendChild(containerNode);
+
+    return contentNode;
+  };
+
+  return { content };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Menu);
 
 
 /***/ })
