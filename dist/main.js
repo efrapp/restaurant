@@ -97,11 +97,25 @@ __webpack_require__.r(__webpack_exports__);
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('content');
-  const contact = Object(_contact__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  const menu = Object(_menu__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  const menuLink = document.getElementById('menu');
+  const contactLink = document.getElementById('contact');
+  const contact = Object(_contact__WEBPACK_IMPORTED_MODULE_0__["default"])().html();
+  const menu = Object(_menu__WEBPACK_IMPORTED_MODULE_1__["default"])().content();
 
-  container.appendChild(contact.html());
-  container.appendChild(menu.content());
+  container.appendChild(menu);
+  container.appendChild(contact);
+
+  contact.style.display = 'none';
+
+  menuLink.addEventListener('click', () => {
+    contact.style.display = 'none';
+    menu.style.display = 'block';
+  });
+
+  contactLink.addEventListener('click', () => {
+    menu.style.display = 'none';
+    contact.style.display = 'block';
+  });
 });
 
 
