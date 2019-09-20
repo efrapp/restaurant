@@ -3,8 +3,8 @@ import Menu from './menu';
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('content');
-  const menuLink = document.getElementById('menu');
-  const contactLink = document.getElementById('contact');
+  const menuLink = document.getElementById('menu_link');
+  const contactLink = document.getElementById('contact_link');
   const contact = Contact().html();
   const menu = Menu().content();
 

@@ -97,8 +97,8 @@ __webpack_require__.r(__webpack_exports__);
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('content');
-  const menuLink = document.getElementById('menu');
-  const contactLink = document.getElementById('contact');
+  const menuLink = document.getElementById('menu_link');
+  const contactLink = document.getElementById('contact_link');
   const contact = Object(_contact__WEBPACK_IMPORTED_MODULE_0__["default"])().html();
   const menu = Object(_menu__WEBPACK_IMPORTED_MODULE_1__["default"])().content();
 
@@ -170,6 +170,7 @@ const Contact = () => {
     const titleNode = title();
     const formNode = buildForm();
 
+    contactNode.setAttribute('id', 'contact');
     contactNode.classList.add('contact');
     contactNode.appendChild(titleNode);
     contactNode.appendChild(formNode);
@@ -235,6 +236,7 @@ const Menu = () => {
     const titleNode = title();
     const containerNode = container();
 
+    contentNode.setAttribute('id', 'menu');
     contentNode.classList.add('menu');
     contentNode.appendChild(titleNode);
     contentNode.appendChild(containerNode);

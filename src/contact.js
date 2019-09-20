@@ -43,6 +43,7 @@ const Contact = () => {
     const titleNode = title();
     const formNode = buildForm();
 
+    contactNode.setAttribute('id', 'contact');
     contactNode.classList.add('contact');
     contactNode.appendChild(titleNode);
     contactNode.appendChild(formNode);

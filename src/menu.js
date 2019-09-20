@@ -44,6 +44,7 @@ const Menu = () => {
     const titleNode = title();
     const containerNode = container();
 
+    contentNode.setAttribute('id', 'menu');
     contentNode.classList.add('menu');
     contentNode.appendChild(titleNode);
     contentNode.appendChild(containerNode);
