@@ -221,8 +221,8 @@ const Menu = () => {
 
   const container = () => {
     const containerNode = document.createElement('div');
-    const menuNode1 = menuCard('../img/fish.jpg', 'Mojarra', 'Mojarra Content');
-    const menuNode2 = menuCard('../img/coconut_rice.jpg', 'Arroz de Coco', 'Arroz de Coco Content');
+    const menuNode1 = menuCard('img/fish.jpg', 'Mojarra', 'Mojarra Content');
+    const menuNode2 = menuCard('img/coconut_rice.jpg', 'Arroz de Coco', 'Arroz de Coco Content');
 
     containerNode.classList.add('menu-container');
     containerNode.appendChild(menuNode1);
