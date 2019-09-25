@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('content');
   const menuLink = document.getElementById('menu_link');
   const contactLink = document.getElementById('contact_link');
-  const contact = Contact().html();
+  const contact = Contact().content();
   const menu = Menu().content();
 
   container.appendChild(menu);
