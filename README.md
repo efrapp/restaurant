@@ -10,7 +10,9 @@ Static web page to show different dishes in a restaurant and a contact form to l
 ## Usage
 
 - Clone the project and move to the root of it
-- Run `npm run server`
+- Switch to the corresponding branch (`develop`, `restaurant`, etc)
+- Run `npm install` to install all the needed dependencies
+- Finally, run `npm run server` to open the page in the browser
 
 ## Contributors
 
