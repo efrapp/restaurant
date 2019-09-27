@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#bg-header {
+  background-image: linear-gradient(black, #ffffff05), url('img/restaurant.jpg');
+}
