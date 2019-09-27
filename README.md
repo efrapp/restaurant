@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/859c045d-75ec-44fe-a3e0-12c5b3242fcd/deploy-status)](https://app.netlify.com/sites/caribbean-food/deploys)
 # Restaurant Project
 
 Static web page to show different dishes in a restaurant and a contact form to leave comments.
