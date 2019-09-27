@@ -14,6 +14,13 @@ Static web page to show different dishes in a restaurant and a contact form to l
 - Run `npm install` to install all the needed dependencies
 - Finally, run `npm run server` to open the page in the browser
 
+## Copyright
+
+- Photo by [Gregor Moser](https://unsplash.com/@gregor_moser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Photo by [Gregory Culmer](https://unsplash.com/@junkanoo_media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Photo by [Rohan G](https://unsplash.com/@rohan_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Photo by [Dipesh Gurav](https://unsplash.com/@how_it_feel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+
 ## Contributors
 
 - [Efrain Pinto](https://github.com/efrapp)
