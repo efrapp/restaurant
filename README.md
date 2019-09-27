@@ -20,6 +20,7 @@ Static web page to show different dishes in a restaurant and a contact form to l
 - Photo by [Gregory Culmer](https://unsplash.com/@junkanoo_media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
 - Photo by [Rohan G](https://unsplash.com/@rohan_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
 - Photo by [Dipesh Gurav](https://unsplash.com/@how_it_feel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Favicon: <div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
 
 ## Contributors
 
